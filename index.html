@@ -70,8 +70,6 @@
 </p>
 <ul>
   <li>Staff account details (name, role, email or program-issued ID)</li>
-  <li>A PIN hash for staff who use PIN sign-in (the PIN itself is never
-      stored in cleartext)</li>
   <li>Login event records (timestamp, IP address, browser/device user-agent
       string) so program administrators can review who signed in and when</li>
   <li>Attendance records and check-in actions entered by staff</li>
@@ -87,7 +85,7 @@
 <h2>How data is stored and transmitted</h2>
 <ul>
   <li>All network traffic between the app and the server uses HTTPS (TLS).</li>
-  <li>Data is stored on a server in Europe and is encrypted at rest at the
+  <li>Data is stored on a server in North America and is encrypted at rest at the
       disk level.</li>
   <li>The server is fronted by Cloudflare Access, which performs sign-in
       verification before the user reaches the app.</li>
